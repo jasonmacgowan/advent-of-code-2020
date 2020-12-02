@@ -1,5 +1,4 @@
-const fs = require("fs");
-const path = require("path");
+const { getInput } = require("../utils");
 
 /**
  * Finds the three entries in day-2.txt that sum to 2020, then
@@ -7,10 +6,7 @@ const path = require("path");
  */
 function main() {
   // read our input data
-  const data = fs.readFileSync(
-    path.join(__dirname, "..", "inputs", "day-2.txt"),
-    "utf-8"
-  );
+  const data = getInput("day-2.txt");
 
   // split input by lines and covert to an integer so we can do math
   const entries = data.split(/\r?\n/).map((x) => parseInt(x, 10));
