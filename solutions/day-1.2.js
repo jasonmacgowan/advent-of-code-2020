@@ -1,12 +1,12 @@
 const { getInput } = require("../utils");
 
 /**
- * Finds the three entries in day-2.txt that sum to 2020, then
+ * Finds the three entries in day-1.txt that sum to 2020, then
  * spits out the product.
  */
 function main() {
   // read our input data
-  const data = getInput("day-2.txt");
+  const data = getInput("day-1.txt");
 
   // split input by lines and covert to an integer so we can do math
   const entries = data.split(/\r?\n/).map((x) => parseInt(x, 10));

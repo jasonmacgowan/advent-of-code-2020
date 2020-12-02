@@ -6,5 +6,5 @@ See [about Advent of Code](https://adventofcode.com/2020/about)
 
 ## Solutions
 
-- [Day 1](solutions/day-1.js)
-- [Day 2](solutions/day-2.js)
+- [Day 1 - Report Repair](solutions/day-1.1.js)
+- [Day 1 - Part Two](solutions/day-1.2.js)
